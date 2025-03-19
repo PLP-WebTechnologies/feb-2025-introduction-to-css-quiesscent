@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A structured HTML5 webpage with images, lists, tables, forms, and multimedia elements.">
+    <title>Styled HTML5 Webpage</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking external CSS -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Styled Webpage</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Ordered List with Roman Numerals -->
+        <section>
+            <h2>Ordered List</h2>
+            <ol type="I">
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+            </ol>
+        </section>
+
+        <!-- External Image -->
+        <section>
+            <h2>External Image</h2>
+            <img src="https://www.pexels.com/photo/traditional-japanese-streetside-eatery-in-daylight-31139933/" alt="Sample Image from Pexels">
+        </section>
+
+        <!-- Table of Contacts -->
+        <section>
+            <h2>Contact List</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Main St</td>
+                    <td>+1234567890</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Oak Ave</td>
+                    <td>+9876543210</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Johnson</td>
+                    <td>789 Pine Rd</td>
+                    <td>+1122334455</td>
+                    <td>michael@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Brown</td>
+                    <td>159 Cedar Blvd</td>
+                    <td>+2233445566</td>
+                    <td>emily@example.com</td>
+                </tr>
+                <tr>
+                    <td>David Wilson</td>
+                    <td>357 Birch Ln</td>
+                    <td>+6677889900</td>
+                    <td>david@example.com</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Registration Form -->
+        <section>
+            <h2>Registration Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+                <br><br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="">Select</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="canada">Canada</option>
+                </select>
+                <br><br>
+
+                <label>Interests:</label>
+                <input type="checkbox" id="sports" name="interests" value="sports"> <label for="sports">Sports</label>
+                <input type="checkbox" id="music" name="interests" value="music"> <label for="music">Music</label>
+                <input type="checkbox" id="tech" name="interests" value="tech"> <label for="tech">Technology</label>
+                <br><br>
+
+                <input type="submit" value="Register">
+            </form>
+        </section>
+
+        <!-- Multimedia Elements -->
+        <section>
+            <h2>Multimedia</h2>
+            <audio controls>
+                <source src="dynasty.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <br><br>
+            <video controls width="400">
+                <source src="dynasty.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us at: example@email.com</p>
+    </footer>
+</body>
+</html>
